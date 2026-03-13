@@ -36,8 +36,8 @@ The agent plans the website structure, generates frontend code, writes files to 
 
 Clone the repository
 ```bash
-git clone
-cd
+git clone https://github.com/aniketh0418/basic-agentic-website-builder-ai.git
+cd basic_agentic_website_builder_ai
 ```
 Install dependencies
 ```bash
