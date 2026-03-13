@@ -58,4 +58,33 @@ https://aistudio.google.com/app/apikey
 Add it in `gemini.py`
 
 ```python
-genai.configure(api_key="YOUR_API_KEY")
+genai.configure(api_key="GEMINI_API_KEY")
+```
+### 2. Create the output folder
+Before running the agent, create the folder where generated files will be stored:
+```bash
+mkdir generated_site
+```
+
+### 3. Install Vercel CLI
+```bash
+npm install -g vercel
+```
+Login once:
+```bash
+vercel login
+```
+---
+## Run the Agent
+```bash
+python agent.py
+```
+Example prompt
+```bash
+Enter website idea: car dealership landing page
+```
+The generated files will appear in:
+```bash
+generated_sites/
+```
+and the site will be deployed automatically using vercel.
